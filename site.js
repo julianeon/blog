@@ -2,9 +2,6 @@
 
     timeout = 400;
 
-    // I gotta take antacid,
-    // so I can keep on partyyyyyiiiiinnnggg.
-    // https://www.youtube.com/watch?v=L_wdRy7x4Sc
     site.partypartyparty = function(e) {
 	var partyers = document.getElementsByClassName('party');
 	for(var i=0; i<partyers.length; i++) {
@@ -15,7 +12,7 @@
 	    e.style.setProperty('color', 'rgb('+ r +','+ g +',' + b + ')');
 
 	    if (Math.random()*100 > 99) {
-		e.innerText = 'PARTY! PARTY! PARTY!';
+		e.innerText = 'WORK! WORK! WORK!'+partyers.length;
 	    }
 	    
 	    this.timeout = Math.max(this.timeout * 0.9, 50);
