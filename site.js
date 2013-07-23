@@ -12,7 +12,7 @@
 	    e.style.setProperty('color', 'rgb('+ r +','+ g +',' + b + ')');
 
 	    if (Math.random()*100 > 99) {
-		e.innerText = 'WORK! WORK! WORK!'+partyers.length;
+		e.innerText = 'WORK! WORK! WORK!';
 	    }
 	    
 	    this.timeout = Math.max(this.timeout * 0.9, 50);
